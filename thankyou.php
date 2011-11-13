@@ -1,11 +1,10 @@
 <?php
 session_start();
 require_once("rb.php");
+include("db.php");
 
-$user = "s91178";
-$password = "861771f2";
 
-R::setup('mysql:host=localhost;dbname=s91178', $user, $password);
+R::setup("mysql:host=$host;dbname=$database_name", $user, $password);
 
 if(isset($_POST['payer_email'])) {
 
