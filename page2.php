@@ -86,6 +86,7 @@ elseif($all_entries > $max_lifetime and $all_entries < $total) {
 
     <div class="container">
         <div class="content">
+<<<<<<< HEAD
     <p><strong>Your contact email is <input type="email" class="input" value="<?php echo $_GET['email']; ?>" id="confirm_email" />.</strong></p>
         <p>Thank you for expressing interest in ClickBuyPay</p>
         <p>This offer is ONLY for people interested in ClickBuyPay just like YOU</p>
@@ -121,6 +122,26 @@ elseif($all_entries > $max_lifetime and $all_entries < $total) {
         <div id="membership" class="span8">
             <h1><?php echo $remaining_oneyear;?><h1>
             <p style="color:#3a7ce5;font-size:20px;">FREE 1 YEAR MEMBERSHIPS</p>
+=======
+    	<p><strong>Your contact email is <input type="email" class="input" value="<?php echo $_GET['email']; ?>" id="confirm_email" />.</strong></p>
+		<p>Thank you for expressing interest in ClickBuyPay.</p>
+		<p>This offer is ONLY for people interested in ClickBuyPay just like <u>YOU</u></p>
+        <p>Pay $0.01 and you get to use ClickBuyPay for <span style="text-decoration:underline; color:red; font-weight: bold">FREE LIFETIME ACCESS</span> when we launch.</p>
+        <p><u><strong>Your $0.01 will NOT be refunded under any circumstances.</strong></u></p>
+        <p>First 10 people stand to win free lifetime membership. Next 10 get free membership for 1 year!</p>
+        <p><span style="text-decoration:underline; font-weight: bold">Once we sell out all 20 slots, we will CLOSE this offer.</span></p>
+
+<div id="paypal">
+<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="PTXDFBEKUN9LN">
+<input type="hidden" name="return" value="http://sit.rp.edu.sg/91178/clickbuypay/thankyou.php">
+<input type="hidden" name="rm" value="2">
+<input type="image" id="paypal-box" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div><!-- end of paypal -->
+>>>>>>> c7d46b0e3154348460e33e4beba35112d0f1b1c6
         </div>
     </div>
     </div><!-- end of row-->
