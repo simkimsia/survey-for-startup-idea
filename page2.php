@@ -30,6 +30,7 @@
         <p>Pay $0.01 and you get to use ClickBuyPay for <span style="text-decoration:underline; color:red; font-weight: bold">FREE LIFETIME ACCESS</span> when we launch.</p>
         <p><u><strong>Your $0.01 will NOT be refunded under any circumstances.</strong></u></p>
         <p>First 10 people stand to win free lifetime membership. Next 10 get free membership for 1 year!</p>
+        <p><span style="text-decoration:underline; font-weight: bold">Once we sell out all 20 slots, we will CLOSE this offer.</span></p>
 
 <div id="paypal">
 <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
