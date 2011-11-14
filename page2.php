@@ -24,10 +24,12 @@
 
     <div class="container">
         <div class="content">
-    <p><strong>Your contact email is <input type="email" class="input" value="<?php echo $_GET['email']; ?>" id="confirm_email" />.</strong></p>
-        <p>Pay $0.01 via Paypal if you want to be the absolutely first few to use ClickBuyPay when we launch.</p>
-        <p>Your $0.01 will not be refunded under any circumstances.</p>
-        <p>10 people stand to win free lifetime membership. Another 10 get free membership for 1 year!</p>
+    	<p><strong>Your contact email is <input type="email" class="input" value="<?php echo $_GET['email']; ?>" id="confirm_email" />.</strong></p>
+		<p>Thank you for expressing interest in ClickBuyPay.</p>
+		<p>This offer is ONLY for people interested in ClickBuyPay just like <u>YOU</u></p>
+        <p>Pay $0.01 and you get to use ClickBuyPay <span style="font-color:red; font-weight: strong">FOR FREE LIFETIME ACCESS</span> when we launch.</p>
+        <p><u><strong>Your $0.01 will NOT be refunded under any circumstances.</strong></u></p>
+        <p>First 10 people stand to win free lifetime membership. Next 10 get free membership for 1 year!</p>
 
 <div id="paypal">
 <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
