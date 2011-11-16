@@ -30,6 +30,9 @@ elseif($all_entries > $max_lifetime and $all_entries < $total) {
     $remaining_lifetime = 0;
     $remaining_oneyear = $total - $all_entries;
 }
+
+
+
  ?>
 <html lang="en">
 <head>
@@ -95,14 +98,7 @@ elseif($all_entries > $max_lifetime and $all_entries < $total) {
         <p style="text-decoration:underline"><strong>Once we sell out all 20 slots, we will CLOSE this offer.</strong></p>
     <?php if($show_paypal): ?>
         <div id="paypal">
-            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="PTXDFBEKUN9LN">
-                <input type="hidden" name="return" value="http://localhost:8888/survey-for-startup-idea/thankyou.php">
-                <input type="hidden" name="rm" value="2">
-                <input type="image" id="paypal-box" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>
+            <?php echo $paypal_button_html; ?>
         </div><!-- end of paypal -->
     <?php else: ?>
         <div id="message">
