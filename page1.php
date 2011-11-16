@@ -103,6 +103,9 @@
                     <div class="input">
                         <input class="validate[required,custom[email]]" id="email" name="email" size="30" type="text" placeholder="john.doe@gmail.com" />
                     </div>
+					<br />
+					<p style="text-decoration:underline"><strong>We ONLY use your email to contact you when we launch. NO SPAM. NO SELLING OF EMAIL.</strong></p>
+			        
                 </div>
             <br/>
             <div class="clearfix">
